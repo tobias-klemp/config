@@ -27,6 +27,7 @@ return {
     filesystem = {
       hijack_netrw_behavior = "open_default",
       close_if_last_window = true,
+      bind_to_cwd = false,
       filtered_items = {
         hide_dotfiles = false,
         hide_gitignored = false,
